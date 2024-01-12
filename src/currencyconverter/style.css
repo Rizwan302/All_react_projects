@@ -1,0 +1,60 @@
+body{
+    background: url('https://media.istockphoto.com/id/1318857268/photo/blue-leaves-backgrounds.jpg?s=2048x2048&w=is&k=20&c=c5_AAno4YsFuyZQh9u-hQKnuCBaFPqVQn2xi3La4cm0=');
+}
+.main{
+    background-color: rgb(114, 144, 219);
+    border-radius: 10px;
+    box-shadow: 20px red;
+    padding: 18px 0px;
+}
+.main h1{
+    text-transform: uppercase;
+    text-shadow: -1px 2px 0 black;
+}
+.main button{
+    width: 50%;
+    margin-top: 20px;
+    background-color: rgb(81, 212, 169);
+    color: black;
+    font-size: 16px;
+}
+.inputBoxmain{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    height: 10vh;
+    width: 50vw;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.secBox label{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+.secBox input{
+    width: 15vw;
+    height: 4vh;
+    font-size: 15px;
+    padding: 0px 6px;
+    border-radius: 5px;
+    color: white;
+}
+
+.threeBox label{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+
+.threeBox select{
+    width: 5vw;
+    height: 4vh;
+    font-size: 15px;
+    padding: 0px 6px;
+    border-radius: 5px;
+    color: white;
+}

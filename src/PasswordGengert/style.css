@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2F3C7E;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    /* background-color: #8A307F; */
+    padding: 20px;
+    margin: 0;
+    color: orange;
+    border-bottom: 2px solid brown;
+}
+
+.main_con {
+    width: 60vw;
+    height: 40vh;
+    background-color: #8A307F;
+    color: orange;
+    border: 2px solid brown;
+    border-radius: 13px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.inputBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.inputBox input {
+    width: 70%;
+    height: 30px;
+    border-radius: 3px;
+    background-color: aliceblue;
+    color: black;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.inputBox input:focus {
+    border-color: rebeccapurple;
+}
+
+.inputBox button {
+    width: 8vw;
+    height: 6vh;
+    color: orange;
+    background-color: rgb(9, 46, 113);
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    border: none;
+}
+
+.secBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.secBox div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.secBox input[type="range"] {
+    width: 70px;
+    margin-right: 5px;
+}
+
+.secBox label {
+    font-size: 14px;
+    color: white;
+}
+
+.secBox input[type="checkbox"] {
+    margin-right: 5px;
+}
