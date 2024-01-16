@@ -1,15 +1,24 @@
 import { useState } from 'react'
 import './App.css'
 // import PasswordApp from './PasswordGengert/page'
-import Currency from './currencyconverter/page'
+// import Currency from './currencyconverter/page'
+// import Todo_list from './todolist/page'
+import Todo from './todo_App/page'
+import { Provider } from 'react-redux'
+import store from './todo_App/store/Store'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       {/* <PasswordApp/> */}
-      <Currency />
+      {/* <Currency /> */}
+    
+
+      <Provider store={store}>
+      <Todo/>
+      </Provider>
+      
     </>
   )
 }
