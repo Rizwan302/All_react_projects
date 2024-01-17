@@ -93,6 +93,21 @@ body{
     background-color: #0056b3;
     border-color: #0056b3;
   }
+
+  .updateBox{
+    width: 50%;
+    display: flex;
+  }
   
+  .updateBox input{
+    width: 80%;
+    height: 5vh;
+    border-radius: 5px;
+  }
+
+  .updateBox button{
+    border-radius: 5px;
+    text-align: center;
+  }
   
 

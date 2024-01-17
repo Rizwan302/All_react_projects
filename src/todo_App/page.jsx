@@ -13,7 +13,6 @@ export default function Todo() {
     const [updateID, setUpdateID] = useState(null)
 
     const handleUpdate = (id, updatemessage) => {
-        // dispatch(updateTask(id, update))
         setUpdateID(id);
         setUpdate(updatemessage);
     };
@@ -37,10 +36,11 @@ export default function Todo() {
                             <div className="todo-item">
                                 {item.message}
                                 {updateID === item.id ? (
-                                    <div>
+                                    <div className='updateBox'>
                                         <input
                                             type="text"
                                             placeholder='Update Task'
+                                            className='inpotBox'
                                             value={update}
                                             onChange={(e) => setUpdate(e.target.value)} />
                                         <button onClick={handleUpdateState}>Save</button>
